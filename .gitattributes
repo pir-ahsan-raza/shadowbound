@@ -1,45 +1,13 @@
-# ========================================
-# Unity + C# Project GitHub Language Tuning
-# ========================================
-# This file tells GitHub Linguist which files to count
-# toward language statistics and which to ignore.
-
-# --- Main language ---
 *.cs linguist-detectable=true
-*.cs linguist-language=C#
-
-# --- Ignore Unity-generated / engine-specific files ---
-*.meta linguist-detectable=false
-*.mat linguist-detectable=false
 *.shader linguist-detectable=false
 *.cginc linguist-detectable=false
-*.prefab linguist-detectable=false
-*.unity linguist-detectable=false
+*.meta linguist-detectable=false
 *.anim linguist-detectable=false
 *.controller linguist-detectable=false
-*.physicMaterial linguist-detectable=false
+*.mat linguist-detectable=false
+*.prefab linguist-detectable=false
+*.unity linguist-detectable=false
 *.asset linguist-detectable=false
-*.cubemap linguist-detectable=false
-*.gradients linguist-detectable=false
-*.renderTexture linguist-detectable=false
-
-# --- Ignore third-party or auto-generated files ---
-[Ll]ibrary/** linguist-detectable=false
-[Tt]emp/** linguist-detectable=false
-[Oo]bj/** linguist-detectable=false
-[Bb]uild*/** linguist-detectable=false
-[Ll]ogs/** linguist-detectable=false
-[Pp]ackages/** linguist-detectable=false
-[Pp]lastic/** linguist-detectable=false
-UserSettings/** linguist-detectable=false
-
-# --- Ignore text/config/documentation ---
-*.json linguist-detectable=false
-*.xml linguist-detectable=false
-*.yaml linguist-detectable=false
-*.yml linguist-detectable=false
-*.txt linguist-detectable=false
-*.md linguist-detectable=false
-*.conf linguist-detectable=false
-
-# --- End ---
+*.png linguist-detectable=false
+*.jpg linguist-detectable=false
+*.ttf linguist-detectable=false
